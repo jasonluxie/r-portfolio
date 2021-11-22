@@ -1,10 +1,9 @@
-import Navbar from "./components/Navbar"
+import NavBar from "./components/NavBar"
 
 function App() {
   return (
     <div className="portfolio-app">
-      <Navbar />
-      <h1>Hello World</h1>
+      <NavBar />
       {/* <Hero />
       <Section />
       <Section /> */}
