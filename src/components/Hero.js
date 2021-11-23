@@ -18,6 +18,7 @@ export default function Hero() {
     return (
         <ThemeProvider theme={theme}>
             <section className="hero" id="hero-section" w>
+                {/* Consider changing h1 and p to Typography component*/}
                 <h1 className="hero-header">Jason Xie</h1>
                 <p className="hero-caption">web developer</p>
                 <div className="links">

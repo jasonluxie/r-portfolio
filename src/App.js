@@ -8,7 +8,7 @@ function App() {
             <CssBaseline />
             <NavBar />
             <Hero />
-            {/* <Section />
+            {/* <Projects />
       <Form /> */}
         </div>
     );

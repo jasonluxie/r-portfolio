@@ -34,7 +34,7 @@ export default function NavBar() {
                     <Button color="secondary" variant="text" href="#projects">
                         Contact Me
                     </Button>
-                    <Button target="_blank" href="https://docs.google.com/document/d/1OmPtzww4Vx1iqT9-mGf2TBZkN6ZfRyWwzuptofEZPys/edit?usp=sharing"color="secondary" className="nav-resume">
+                    <Button classname="right-end"target="_blank" href="https://drive.google.com/file/d/1vPXXias1UsJ3tq5QD-tZVZk7HEp9CqQW/view?usp=sharing"color="secondary" className="nav-resume">
                         Résumé
                     </Button>
                 </Toolbar>
