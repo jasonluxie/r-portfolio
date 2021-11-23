@@ -4,6 +4,7 @@ import { Toolbar } from "@mui/material";
 import { Button } from "@mui/material";
 import { ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
+import "../styles/NavBar.css"
 
 export default function NavBar() {
     const theme = createTheme({
@@ -34,7 +35,7 @@ export default function NavBar() {
                     <Button color="secondary" variant="text" href="#projects">
                         Contact Me
                     </Button>
-                    <Button classname="right-end"target="_blank" href="https://drive.google.com/file/d/1vPXXias1UsJ3tq5QD-tZVZk7HEp9CqQW/view?usp=sharing"color="secondary" className="nav-resume">
+                    <Button classname="right-end"target="_blank" href="https://drive.google.com/file/d/1vPXXias1UsJ3tq5QD-tZVZk7HEp9CqQW/view"color="secondary" className="nav-resume">
                         Résumé
                     </Button>
                 </Toolbar>
