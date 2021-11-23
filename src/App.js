@@ -1,15 +1,17 @@
-import NavBar from "./components/NavBar"
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
 import { CssBaseline } from "@mui/material";
 function App() {
-  return (
-    <div className="portfolio-app">
-    <CssBaseline/>
-      <NavBar />
-      {/* <Hero />
-      <Section />
-      <Section /> */}
-    </div>
-  );
+    return (
+        <div className="portfolio-app">
+            {/* CssBaseline removes default MUI styling */}
+            <CssBaseline />
+            <NavBar />
+            <Hero />
+            {/* <Section />
+      <Form /> */}
+        </div>
+    );
 }
 
 export default App;
