@@ -9,21 +9,36 @@ export default function NavBar() {
     const theme = createTheme({
         palette: {
             primary: {
-                main: "#3f3faf",
-                light: "something else"
+                main: "#272838",
+                light: "#69697c"
+            },
+            secondary: {
+                main: "##383727",
+            },
+            info: {
+                main: "#af3faf",
+            }
         },
-    }});
+    });
     return (
         <ThemeProvider theme={theme}>
-            <AppBar  position="static">
-                <Toolbar variant="dense">
+            <AppBar position="static">
+                <Toolbar variant="dense" color="primary">
                     {/* Make these buttons reusable components */}
-                    <Button  color="primary" variant="text">Hello</Button> 
-                    <Button  color="primary" variant="text">Goodbye</Button>
-                    <Button  color="primary" variant="text" href="#projects">Hello Again</Button>
+                    <Button color="secondary" variant="text">
+                        Home
+                    </Button>
+                    <Button color="secondary" variant="text">
+                        Projects
+                    </Button>
+                    <Button color="secondary" variant="text" href="#projects">
+                        Contact Me
+                    </Button>
+                    <Button target="_blank" href="https://docs.google.com/document/d/1OmPtzww4Vx1iqT9-mGf2TBZkN6ZfRyWwzuptofEZPys/edit?usp=sharing"color="secondary" className="nav-resume">
+                        Résumé
+                    </Button>
                 </Toolbar>
             </AppBar>
         </ThemeProvider>
     );
 }
-
