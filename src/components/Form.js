@@ -15,7 +15,7 @@ export default function ContactForm () {
             <li>[Content of Work]</li>
             <li>[Deadline]</li>
         </ul>
-        <form action="">
+        <form action="mailto:jasonluxie@gmail.com">
             <div className="contact-section__boxes">
                 <label for=""></label>
                 <input

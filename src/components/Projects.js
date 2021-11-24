@@ -13,6 +13,7 @@ export default function Projects() {
     return (
         <Box
             className="projects"
+            id="projects"
             sx={{
                 display: "flex",
                 flexDirection: "column",
