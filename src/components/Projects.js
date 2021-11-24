@@ -17,11 +17,12 @@ export default function Projects() {
             sx={{
                 display: "flex",
                 flexDirection: "column",
-                px:1
+                alignItems: 'center',
+                px: 1,
             }}
         >
             <Typography variant="h3" align="center" sx={{ pt: 2 }}>
-                Projects
+                My Projects
             </Typography>
 
             <ModalCard
@@ -31,7 +32,15 @@ export default function Projects() {
                 imageLocation={dndTracker}
                 imageAlt="GIF showing application functionality including login, character creation, randomization, and dice rolling."
             />
-            <Box sx={{ display: "flex", flexDirection: "row", flexWrap: 'wrap', justifyContent:"space-between", pt:2 }}>
+            <Box
+                sx={{
+                    display: "flex",
+                    flexDirection: "row",
+                    flexWrap: "wrap",
+                    justifyContent: "space-around",
+                    pt: 2,
+                }}
+            >
                 <ModalCard
                     main="false"
                     title={`Note Taker`}
