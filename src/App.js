@@ -1,5 +1,6 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import Projects from "./components/Projects"
 import { CssBaseline } from "@mui/material";
 function App() {
     return (
@@ -8,8 +9,8 @@ function App() {
             <CssBaseline />
             <NavBar />
             <Hero />
-            {/* <Projects />
-      <Form /> */}
+            <Projects/>
+            {/* <Form/> */}
         </div>
     );
 }
