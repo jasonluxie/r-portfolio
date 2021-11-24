@@ -3,15 +3,16 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+// import Modal from "./Cards-Modal"
 import { CardActionArea } from "@mui/material";
 
 export default function ModalCard(props) {
     return props.main === "true" ? (
-        <Card sx={{ maxWidth: 800, mt: 2  }}>
+        <Card sx={{ maxWidth: 900, mt: 2  }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    height="300"
+                    height="500"
                     image={props.imageLocation}
                     alt={props.imageAlt}
                 />

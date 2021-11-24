@@ -10,15 +10,15 @@ import empSys from "../images/4-emp-sys.png";
 import codeQuiz from "../images/6-code-quiz.png";
 import weatherTracker from "../images/7-weather-tracker.png";
 export default function Projects() {
-    const cardStyles = {};
     return (
         <Box
             className="projects"
             sx={{
                 display: "flex",
                 flexDirection: "column",
-                alignItems: 'center',
+                alignItems: "center",
                 px: 1,
+                py: 2
             }}
         >
             <Typography variant="h3" align="center" sx={{ pt: 2 }}>
@@ -31,6 +31,8 @@ export default function Projects() {
                 value="Dungeons and Dragons non-player character tracker for dungeon masters."
                 imageLocation={dndTracker}
                 imageAlt="GIF showing application functionality including login, character creation, randomization, and dice rolling."
+                // modalTitle={`Dungeons & Dragons NPC Tracker for Dungeon Masters`}
+
             />
             <Box
                 sx={{
