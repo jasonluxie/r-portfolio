@@ -1,9 +1,18 @@
 # React Portfolio
+
 ## Description
-Self Descriptive, but this is my first portfolio built in React. 
+
+Self Descriptive, but this is my first portfolio built in React.
+
 ## Deployment
+
 [Portfolio](https://jasonluxie.github.io/r-portfolio/)
+
 ## Tools
-- [React](https://reactjs.org/)
-- [Material UI](https://mui.com/)
+
+-   [React](https://reactjs.org/)
+-   [Material UI](https://mui.com/)
+
 ## Demonstration
+
+![Quick runthrough of react portfolio](./readme/r-portfolio.gif)
