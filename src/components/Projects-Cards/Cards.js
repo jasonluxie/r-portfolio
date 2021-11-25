@@ -9,7 +9,7 @@ import { CardActionArea } from "@mui/material";
 export default function ModalCard(props) {
     return props.main === "true" ? (
         <Card sx={{ maxWidth: 900, mt: 2  }}>
-            <CardActionArea>
+            <CardActionArea target="_blank" href={props.link}>
                 <CardMedia
                     component="img"
                     height="500"
@@ -28,7 +28,7 @@ export default function ModalCard(props) {
         </Card>
     ) : (
         <Card sx={{ maxWidth: 400, mt: 2 }}>
-            <CardActionArea>
+            <CardActionArea target="_blank" href={props.link}>
                 <CardMedia
                     component="img"
                     height="300"

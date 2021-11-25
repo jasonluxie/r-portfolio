@@ -32,7 +32,7 @@ export default function Projects() {
                 value="Dungeons and Dragons non-player character tracker for dungeon masters."
                 imageLocation={dndTracker}
                 imageAlt="GIF showing application functionality including login, character creation, randomization, and dice rolling."
-                // modalTitle={`Dungeons & Dragons NPC Tracker for Dungeon Masters`}
+                link="https://github.com/jasonluxie/8-1-project-2"
 
             />
             <Box
@@ -50,6 +50,7 @@ export default function Projects() {
                     value="Note taking application using MySQL database."
                     imageLocation={noteTaker}
                     imageAlt="GIF showing some notes being entered."
+                    link="https://github.com/jasonluxie/6-2-hw-note-taker"
                 />
                 <ModalCard
                     main="false"
@@ -57,6 +58,7 @@ export default function Projects() {
                     value="Checks whether or not you own the EGS free game of the week in your steam library already."
                     imageLocation={egsChecker}
                     imageAlt="Landing page for application showing instructions."
+                    link="https://github.com/jasonluxie/4-1-project-1"
                 />
                 <ModalCard
                     main="false"
@@ -64,6 +66,7 @@ export default function Projects() {
                     value="Console based MySQL database management system"
                     imageLocation={empSys}
                     imageAlt="Image of console showing database being accessed via CRUD."
+                    link="https://github.com/jasonluxie/7-1-hw-employee-management-system"
                 />
                 <ModalCard
                     main="false"
@@ -71,6 +74,7 @@ export default function Projects() {
                     value="Multiple choice code quiz for simple javascript concepts"
                     imageLocation={codeQuiz}
                     imageAlt="Picture showing questions and options for javascript code question."
+                    link="https://github.com/jasonluxie/2-2-hw-code-quiz"
                 />
                 <ModalCard
                     main="false"
@@ -78,6 +82,7 @@ export default function Projects() {
                     value="Weather Tracker that allows users to input city and recieve 5 day forcast"
                     imageLocation={weatherTracker}
                     imageAlt="Weather tracker with current weather of query and 5 day forecast"
+                    link="https://github.com/jasonluxie/3-2-hw-weather-dashboard"
                 />
             </Box>
         </Box>
