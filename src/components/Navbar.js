@@ -32,9 +32,9 @@ export default function NavBar() {
                     <Button color="secondary" variant="text" href="#projects">
                         Projects
                     </Button>
-                    <Button color="secondary" variant="text" href="#contact-section">
+                    {/* <Button color="secondary" variant="text" href="#contact-section">
                         Contact Me
-                    </Button>
+                    </Button> */}
                     <Button classname="right-end"target="_blank" href="https://drive.google.com/file/d/1vPXXias1UsJ3tq5QD-tZVZk7HEp9CqQW/view"color="secondary" className="nav-resume">
                         Résumé
                     </Button>

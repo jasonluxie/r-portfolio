@@ -11,7 +11,7 @@ function App() {
             <NavBar />
             <Hero />
             <Projects/>
-            <Form/>
+            {/* <Form/> */}
         </div>
     );
 }
