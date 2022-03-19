@@ -21,7 +21,7 @@ export default function Projects() {
             }}
         >
             <Typography variant="h3" align="center" sx={{ pt: 2 }}>
-                Some Projects
+                Projects
             </Typography>
             <Box
                 sx={{
