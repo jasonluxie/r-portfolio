@@ -32,6 +32,14 @@ export default function Projects() {
                     pt: 2,
                 }}
             >
+                {/* <ModalCard 
+                    main="true"
+                    title={'Cinegraph'}
+                    value=""
+                    imageLocation={}
+                    imageAlt=""
+                    link=""
+                    /> */}
                 <ModalCard
                     main="false"
                     title={`D&D Character Tracker`}
