@@ -1,17 +1,17 @@
-import NavBar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects"
-// import Form from "./components/Form"
+import Form from "./components/Form"
 import { CssBaseline } from "@mui/material";
 function App() {
     return (
         <div className="portfolio-app">
             {/* CssBaseline removes default MUI styling */}
             <CssBaseline />
-            <NavBar />
+            <Navbar />
             <Hero />
             <Projects/>
-            {/* <Form/> */}
+            <Form/>
         </div>
     );
 }

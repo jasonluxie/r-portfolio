@@ -6,40 +6,38 @@ export default function ContactForm () {
     <div className="contact-section__form">
         <h3>Contact</h3>
         <p>
-            To make this a smooth process, it would be very
-            appreciated if you could describe in as much detail as
-            possible the:
+            Please fill out the forllowing form to contact me, I'll get back to you as soon as I can! To make this a smooth process, it would be very
+            appreciated if you could describe in as much detail in the "Message" section the:
         </p>
         <ul>
             <li>[Purpose of Work]</li>
             <li>[Content of Work]</li>
-            <li>[Deadline]</li>
         </ul>
-        <form action="http://formspree.io/jasonluxie@gmail.com">
+        <form action="https://formspree.io/f/myyoneon" method="POST">
             <div className="contact-section__boxes">
-                <label for=""></label>
                 <input
                     className="form-input"
                     type="text"
                     placeholder="Name"
+                    name="Name"
                     required
                 />
             </div>
             <div className="contact-section__boxes">
-                <label for=""></label>
                 <input
                     className="form-input"
                     type="email"
-                    placeholder="Email"
+                    placeholder="Your Email"
+                    name="Email"
                     required
                 />
             </div>
             <div className="contact-section__boxes">
-                <label for=""></label>
                 <input
                     className="form-input"
                     type="date"
                     placeholder="Deadline"
+                    name="Deadline"
                     required
                 />
             </div>
@@ -47,15 +45,15 @@ export default function ContactForm () {
                 className="contact-section__boxes"
                 id="contact-section__message"
             >
-                <label for=""></label>
                 <textarea
                     className="form-input"
                     type="text"
                     placeholder="Message"
+                    Name="Message"
                     required
                 ></textarea>
             </div>
-            <button className="contact-section__submit" type="button">
+            <button className="contact-section__submit" type="submit">
                 SUBMIT
             </button>
         </form>
