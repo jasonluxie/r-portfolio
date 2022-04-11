@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects"
 // import Form from "./components/Form"
