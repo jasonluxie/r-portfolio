@@ -2,7 +2,7 @@
 
 ## Description
 
-Self Descriptive, but this is my first portfolio built in React.
+Self Descriptive; Portfolio built in the React with MUI componenet library.
 
 ## Deployment
 
