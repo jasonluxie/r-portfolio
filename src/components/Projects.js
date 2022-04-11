@@ -3,9 +3,11 @@ import ModalCard from "./Projects-Cards/Cards";
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import "../styles/Projects.css";
-import dndTracker from "../images/1-dnd-tracker.gif";
+import dndTrackerStatic from "../images/1-dnd-tracker.png";
+import dndTrackerGif from "../images/1-dnd-tracker.gif"
 import egsChecker from "../images/3-egs-checker.png";
-import codeQuiz from "../images/6-code-quiz.png";
+import codeQuizStatic from "../images/6-code-quiz.png";
+import codeQuizGif from "../images/6-code-quiz.gif"
 import weatherTracker from "../images/7-weather-tracker.png";
 export default function Projects() {
     return (
@@ -44,33 +46,49 @@ export default function Projects() {
                     main="false"
                     title={`D&D Character Tracker`}
                     value="Dungeons and Dragons non-player character tracker for dungeon masters."
-                    imageLocation={dndTracker}
+                    cardImage={dndTrackerStatic}
                     imageAlt="GIF showing application functionality including login, character creation, randomization, and dice rolling."
-                    link="https://github.com/jasonluxie/8-1-project-2"
+                    modalImage={dndTrackerGif}
+                    modalTitle="Dungeons & Dragons Character Tracker"
+                    modalText="A simple character tracker built for dungeon masters running d&d games. This application allows users to log in, create, and store an assortment of basic character information which can quickly be accessed during a session. Characters can also quickly be generated and updated from the same interface."
+                    modalGithubLink="https://github.com/jasonluxie/8-1-project-2"
+                    modalLiveLink="https://dnd-dm-character-tracker.herokuapp.com/"
                 />
                 <ModalCard
                     main="false"
                     title={`Epic Games Store Checker`}
                     value="Checks whether or not you own the EGS free game of the week in your steam library already."
-                    imageLocation={egsChecker}
+                    cardImage={egsChecker}
                     imageAlt="Landing page for application showing instructions."
-                    link="https://github.com/jasonluxie/4-1-project-1"
+                    modalImage={egsChecker}
+                    modalTitle="EGS Free Game Checker"
+                    modalText="Application built to learn how to use simple APIs by checking the inputed Steam user ID to verify whether or not said Steam user owns the free game of the week on the Epic Games Store."
+                    modalGithubLink="https://github.com/jasonluxie/4-1-project-1"
+                    modalLiveLink="https://jasonluxie.github.io/4-1-project-1/"
                 />
                 <ModalCard
                     main="false"
                     title={`Javascript Code Quiz`}
                     value="Multiple choice code quiz for simple javascript concepts"
-                    imageLocation={codeQuiz}
+                    cardImage={codeQuizStatic}
                     imageAlt="Picture showing questions and options for javascript code question."
-                    link="https://github.com/jasonluxie/2-2-hw-code-quiz"
+                    modalImage={codeQuizGif}
+                    modalTitle="Javascript Code Quiz"
+                    modalText="Simple multiplpe choice quiz built to explore basic javascript scripting while keeping track of time. Scores are stored in local storage of the browser."
+                    modalGithubLink="https://github.com/jasonluxie/2-2-hw-code-quiz"
+                    modalLiveLink="https://jasonluxie.github.io/2-2-hw-code-quiz//"
                 />
                 <ModalCard
                     main="false"
                     title={`Weather Tracker`}
                     value="Weather Tracker that allows users to input city and recieve 5 day forcast"
-                    imageLocation={weatherTracker}
+                    cardImage={weatherTracker}
                     imageAlt="Weather tracker with current weather of query and 5 day forecast"
-                    link="https://github.com/jasonluxie/3-2-hw-weather-dashboard"
+                    modalImage={egsChecker}
+                    modalTitle="EGS Free Game Checker"
+                    modalText="Application built to learn how to use simple APIs by checking the inputed Steam user ID to verify whether or not said Steam user owns the free game of the week on the Epic Games Store."
+                    modalGithubLink="https://github.com/jasonluxie/4-1-project-1"
+                    modalLiveLink="https://jasonluxie.github.io/4-1-project-1/"
                 />
             </Box>
         </Box>
