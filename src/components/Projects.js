@@ -8,7 +8,10 @@ import dndTrackerGif from "../images/1-dnd-tracker.gif"
 import egsChecker from "../images/3-egs-checker.png";
 import codeQuizStatic from "../images/6-code-quiz.png";
 import codeQuizGif from "../images/6-code-quiz.gif"
-import weatherTracker from "../images/7-weather-tracker.png";
+import weatherTrackerStatic from "../images/7-weather-tracker.png";
+import weatherTrackerGif from "../images/7-weather-tracker.gif";
+import cinegraphStatic from "../images/8-cinegraph.png"
+import cinegraphGif from "../images/8-cinegraph.gif"
 export default function Projects() {
     return (
         <Box
@@ -34,14 +37,18 @@ export default function Projects() {
                     pt: 2,
                 }}
             >
-                {/* <ModalCard 
+                <ModalCard 
                     main="true"
-                    title={'Cinegraph'}
-                    value=""
-                    imageLocation={}
-                    imageAlt=""
-                    link=""
-                    /> */}
+                    title={`Cinegraph`}
+                    value="React based application to visualize cinema box office data."
+                    cardImage={cinegraphStatic}
+                    imageAlt="Landing page of cinegraph."
+                    modalImage={cinegraphGif}
+                    modalTitle="Cinegraph"
+                    modalText="Cinegraph is React based data visualization and modeling application which accepts queries from users to chart relational data about movies. Users can sign up and log in to the application to search for and save movie queries which are stored on a cloud database."
+                    modalGithubLink="https://github.com/jessicamcg/cinegraph"
+                    modalLiveLink="https://movie-data-model.herokuapp.com/"
+                    />
                 <ModalCard
                     main="false"
                     title={`D&D Character Tracker`}
@@ -82,13 +89,13 @@ export default function Projects() {
                     main="false"
                     title={`Weather Tracker`}
                     value="Weather Tracker that allows users to input city and recieve 5 day forcast"
-                    cardImage={weatherTracker}
+                    cardImage={weatherTrackerStatic}
                     imageAlt="Weather tracker with current weather of query and 5 day forecast"
-                    modalImage={egsChecker}
+                    modalImage={weatherTrackerGif}
                     modalTitle="EGS Free Game Checker"
-                    modalText="Application built to learn how to use simple APIs by checking the inputed Steam user ID to verify whether or not said Steam user owns the free game of the week on the Epic Games Store."
-                    modalGithubLink="https://github.com/jasonluxie/4-1-project-1"
-                    modalLiveLink="https://jasonluxie.github.io/4-1-project-1/"
+                    modalText="Weather dashboard which uses APIs to search for current and 5 day forecast of user inputted cities. Previous searches are stored in local memory of browser."
+                    modalGithubLink="https://github.com/jasonluxie/3-2-hw-weather-dashboard"
+                    modalLiveLink="https://jasonluxie.github.io/3-2-hw-weather-dashboard/"
                 />
             </Box>
         </Box>
