@@ -81,7 +81,7 @@ export default function Projects() {
                     imageAlt="Picture showing questions and options for javascript code question."
                     modalImage={codeQuizGif}
                     modalTitle="Javascript Code Quiz"
-                    modalText="Simple multiplpe choice quiz built to explore basic javascript scripting while keeping track of time. Scores are stored in local storage of the browser."
+                    modalText="Simple multiple choice quiz built to explore basic javascript scripting while keeping track of time. Scores are stored in local storage of the browser."
                     modalGithubLink="https://github.com/jasonluxie/2-2-hw-code-quiz"
                     modalLiveLink="https://jasonluxie.github.io/2-2-hw-code-quiz//"
                 />

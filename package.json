@@ -2,7 +2,7 @@
     "name": "r-portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://jasonluxie.github.io/r-portfolio",
+    "homepage": "http://www.jasonluxie.com/",
     "dependencies": {
         "@emotion/react": "^11.6.0",
         "@emotion/styled": "^11.6.0",
