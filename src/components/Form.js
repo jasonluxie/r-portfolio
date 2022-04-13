@@ -6,7 +6,7 @@ export default function ContactForm () {
     <div className="contact-section__form">
         <h3>Contact</h3>
         <p>
-            Please fill out the forllowing form to contact me, I'll get back to you as soon as I can! To make this a smooth process, it would be very
+            Please fill out the following form to contact me, I'll get back to you as soon as I can! To make this a smooth process, it would be
             appreciated if you could describe in as much detail in the "Message" section the:
         </p>
         <ul>
